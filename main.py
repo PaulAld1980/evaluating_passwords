@@ -35,7 +35,7 @@ def on_ask_change(edit, new_edit_text):
         has_upper_letters(password),
         has_lower_letters(password),
         has_symbols(password)
-        ]
+    ]
     for i in secure_steps:
         if i:
             score += 2
